@@ -1,0 +1,278 @@
+*{margin:0;padding: 0;}
+a{
+    text-decoration:none;
+
+}
+.wrapper{
+	overflow: hidden;
+}
+.fdiv{
+	width:100%;
+	background:green;
+	color: white;
+	height: 300px;
+	position: relative;
+
+
+}
+.fdiv p{
+top:50%;
+left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+	background: red;
+	color: white;
+}
+.sdiv{
+	width:100%;
+	background:blue;
+	color: white;
+	height: 300px;
+	position: relative;
+
+
+}
+.sdiv:after{
+content: "";
+position: absolute;
+background: blue;
+width: 50%;
+top: -34px;
+right: -12px;
+transform: rotate(-3deg);
+padding: 111px;
+
+
+
+
+}
+.sdiv:before{
+content: "";
+position: absolute;
+background: blue;
+width: 50%;
+top: -34px;
+left: -12px;
+transform: rotate(3deg);
+padding: 111px;
+}
+.sdiv p{
+top:-3%;
+left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+	background: red;
+	color: white;
+	z-index: 1;
+	box-shadow: -1px -29px 50px -22px white;
+}
+.sdiv p:after{
+   content: "";
+    position: absolute;
+    border-top: 33px solid #ffc0cb00;
+    border-left: 33px solid red;
+    transform: rotate(0deg);
+    right: -32px;
+    top: -1px;
+
+}
+.sdiv p:before{
+   content: "";
+    position: absolute;
+    border-top: 33px solid #ffc0cb00;
+    border-right: 33px solid red;
+    transform: rotate(0deg);
+    left: -32px;
+    top: -1px;
+}
+.btn1{
+padding: 20px 57px;
+background: orange;
+position: absolute;
+left: 40%;
+top: 50%;
+border: none;
+font-size: 20px;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: white;
+border-radius: 7px;
+
+}
+.btn2{
+    padding: 20px 57px;
+    background: orange;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+    border: none;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    border-radius:7px;
+
+}
+.btn1:after{
+content: "";
+position: absolute;
+border-top: 84px solid #f000;
+border-right: 47px solid #00f;
+right: 0;
+top: 0;
+bottom: 0;
+
+
+
+}
+.btn2:before{
+content: "";
+position: absolute;
+border-top: 64px solid ;
+border-right: 38px solid #ffa500;
+left: 0;
+top: 0;
+bottom: 0;
+
+}
+/*
+===============================
+Button 1
+===============================
+*/
+.skew1{
+ position: relative;
+top: 110px;
+left: 32px;
+}
+.all-section{
+    width: 960px;
+    height: 400px;
+    background: green;
+   margin: 0 auto;
+}
+.skew{
+    width: 230px;
+    height: 55px;
+    background: #fff;
+    margin-left: 20px;
+    transform: skew(-26deg,0deg);
+    border-radius: 6px;
+    position: relative;
+
+
+}
+ .call i{ 
+position: relative;
+font-size: 22px;
+bottom: 38px;
+left: 221px;
+color: #1E3F59;
+
+}
+.top-skew{
+width: 180px;
+height: 55px;
+background: orange;
+margin-left: 7px;
+position: relative;
+top: -78px;
+color: #fff;
+text-align: center;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+
+}
+.top-skew span{
+font-size: 22px;
+color: #1E3F59;
+font-weight: bold;
+position: relative;
+top: 13px;
+}
+.top-skew:before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: -17px;
+    position: absolute;
+    border-left: 45px solid #0ff0;
+    border-top: 55px solid orange;
+    transform: skew(148deg);
+    border-top-right-radius: 10px;
+
+
+}
+/*
+===========================
+Button2
+===========================
+*/
+a{
+    text-decoration:none;
+}
+.skew2-all{
+position: relative;
+right: -300px;
+top: -22px;
+
+}
+.skew2{
+    width: 230px;
+    height: 55px;
+    background: #fff;
+    margin-left: 20px;
+    transform: skew(-26deg,0deg);
+    border-radius: 6px;
+    position: relative;
+
+
+}
+ .call2 i{ 
+position: relative;
+font-size: 22px;
+bottom: 39px;
+left: 29px;
+color:#1E3F59;
+
+}
+.top-skew2{
+    width: 180px;
+    height: 55px;
+    background: orange;
+    margin-left: 12px;
+    position: relative;
+    top: -77.5px;
+    color: #fff;
+    text-align: center;
+    right: -72px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.top-skew2 span{
+font-size: 22px;
+color: #1E3F59;
+font-weight: bold;
+position: relative;
+top: 13px;
+}
+.top-skew2:before{
+content: "";
+top: 0;
+bottom: 0;
+left: -16px;
+position: absolute;
+border-right: 45px solid #0ff0;
+border-bottom: 55px solid orange;
+transform: skew(-31deg);
+border-bottom-left-radius: 8px;
+
+
+}
+
